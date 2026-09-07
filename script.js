@@ -5,15 +5,14 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // All 36 Levensa E-Commerce Design Assets
+  // All 35 Levensa E-Commerce Design Assets (curated)
   const levensaGallery = [
-    { src: 'LEVENSA/CH1.png', title: 'Carolina Herrera Perfume Feature Banner', category: 'fragrance', tag: 'HERO BANNER' },
-    { src: 'LEVENSA/100 brands.jpg', title: '100+ Global Luxury Brands Promo', category: 'campaign', tag: 'CAMPAIGN BANNER' },
     { src: 'LEVENSA/Deal of the Day 2.jpg', title: 'Deal of the Day Exclusive Campaign', category: 'offers', tag: 'DEAL BANNER' },
-    { src: 'LEVENSA/deal of the day.jpg', title: 'Flash Deal of the Day Promo', category: 'offers', tag: 'PROMO AD' },
+    { src: 'LEVENSA/100 brands.jpg', title: '100+ Global Luxury Brands Promo', category: 'campaign', tag: 'CAMPAIGN BANNER' },
+    { src: 'LEVENSA/CH1.png', title: 'Carolina Herrera Perfume Feature Banner', category: 'fragrance', tag: 'HERO BANNER' },
     { src: 'LEVENSA/ramadan offer.jpg', title: 'Ramadan Festive Mega Sale Creative', category: 'campaign', tag: 'SEASONAL SALE' },
     { src: 'LEVENSA/ramadan offer 75_ arabic.jpg', title: 'Ramadan 75% Off Special Offer (Arabic)', category: 'campaign', tag: 'SEASONAL SALE' },
-    { src: 'LEVENSA/Eidpost .png', title: 'Eid Mubarak Luxury Social Creative', category: 'campaign', tag: 'EID SPECIAL' },
+    { src: 'LEVENSA/deal of the day.jpg', title: 'Flash Deal of the Day Promo', category: 'offers', tag: 'PROMO AD' },
     { src: 'LEVENSA/Collections arabic.jpg', title: 'Arabic Collection Showcase Banner', category: 'banners', tag: 'COLLECTION BANNER' },
     { src: 'LEVENSA/collection banner new .png', title: 'New Seasonal Collection Banner', category: 'banners', tag: 'COLLECTION BANNER' },
     { src: 'LEVENSA/banner eng.png', title: 'E-Commerce Hero Slider Banner', category: 'banners', tag: 'HERO SLIDER' },
@@ -50,11 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
     levensa: {
       type: 'gallery',
       title: "LEVENSA E-COMMERCE CAMPAIGN",
-      category: "GRAPHIC DESIGN / 36 COMMERCIAL DESIGNS DELIVERED",
+      category: "GRAPHIC DESIGN / 35 COMMERCIAL DESIGNS DELIVERED",
       client: "Levensa (Saudi Arabia)",
       tools: "Adobe Photoshop, Canva Pro, Figma",
       timeline: "10 Months Remote",
-      description: "Full suite of 36+ high-converting promotional banners, seasonal sale creatives (Ramadan & Eid), hero sliders, and international luxury brand product ads designed for Saudi Arabia's leading online fragrance and lifestyle destination.",
+      description: "Full suite of 35+ high-converting promotional banners, seasonal sale creatives (Ramadan & Eid), hero sliders, and international luxury brand product ads designed for Saudi Arabia's leading online fragrance and lifestyle destination.",
       items: levensaGallery
     },
     fitness: {
@@ -139,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="gallery-header-stats">
         <div class="gallery-stat-pill">
           <span>Total Designs:</span>
-          <span class="highlight">36 Commercial Assets</span>
+          <span class="highlight">35 Commercial Assets</span>
         </div>
         <div class="gallery-stat-pill">
           <span>Client Scope:</span>
@@ -156,10 +155,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <!-- Filter Tabs -->
       <div class="gallery-filter-bar">
-        <button class="filter-btn active" data-filter="all">All Designs (36)</button>
+        <button class="filter-btn active" data-filter="all">All Designs (35)</button>
         <button class="filter-btn" data-filter="fragrance">Luxury Fragrances (18)</button>
         <button class="filter-btn" data-filter="banners">Hero & Category Banners (8)</button>
-        <button class="filter-btn" data-filter="campaign">Campaigns & Seasonal (6)</button>
+        <button class="filter-btn" data-filter="campaign">Campaigns & Seasonal (5)</button>
         <button class="filter-btn" data-filter="offers">Flash Deals & Offers (4)</button>
       </div>
 
